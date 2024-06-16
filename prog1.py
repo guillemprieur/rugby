@@ -5,7 +5,7 @@ def transfo_division(var):
         return "prod2"
 
 def init():
-    division=transfo_division(input("Quelle est la division etudiee ? (1 ou 2) : "))
+    division=transfo_division(input("Quelle est la division étudiée ? (1 ou 2) : "))
     saison=input("Quelle est la saison etudiee ? (attention au format : 20XX-20XX) : ")
     journee=int(input("Quelle est la derniere journee a prendre en compte ? : "))
     return [division,saison,journee]
